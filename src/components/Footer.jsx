@@ -10,7 +10,9 @@ const Footer = () => {
           <div className="col-span-1 md:col-span-2">
             <h3 className="text-2xl font-bold mb-4">Professional Portfolio</h3>
             <div className="flex space-x-4">
-              <a                href="mailto:utkarsha@umich.edu"             className="text-gray-300 hover:text-maize-yellow transition-colors"
+              <a
+                href="mailto:utkarsha@umich.edu"
+                className="text-gray-300 hover:text-maize-yellow transition-colors"
               >
                 <Mail className="h-5 w-5" />
               </a>
@@ -57,7 +59,6 @@ const Footer = () => {
               <li className="flex items-center">
                 <Mail className="h-4 w-4 mr-2" />
                 <span>utkarsha@umich.edu</span>
-              <span>utkarsha@umich.edu</span>
               </li>
               <li className="flex items-center">
                 <Linkedin className="h-4 w-4 mr-2" />
@@ -74,8 +75,7 @@ const Footer = () => {
         </div>
       </div>
     </footer>
-  )
+   )
 }
 
 export default Footer
-
