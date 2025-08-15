@@ -55,7 +55,9 @@ const Footer = () => {
             <h4 className="text-lg font-semibold mb-4">Contact</h4>
             <ul className="space-y-2 text-gray-300">
               <li className="flex items-center">
-                <Mail className="h-4 w-4 mr-2                <span>utkarsha@umich.edu</span>
+                <Mail className="h-4 w-4 mr-2" />
+                <span>utkarsha@umich.edu</span>
+              <span>utkarsha@umich.edu</span>
               </li>
               <li className="flex items-center">
                 <Linkedin className="h-4 w-4 mr-2" />
